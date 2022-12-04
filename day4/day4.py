@@ -30,10 +30,6 @@ def main():
     file = open("day4.txt", "r")
     day4_2(file)
 
-    for i in range(3, 7):
-        if i not in range(2, 9):
-            break
-
 
 if __name__ == "__main__":
     main()
